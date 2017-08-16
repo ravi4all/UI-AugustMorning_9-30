@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h1>Form Handling</h1>
+
+<form action="login.html" method="post">
+    <table>
+        <tr>
+            <td><label for="username">Enter Name</label></td>
+            <td><input type="text" id="username" name="u_name"/></td>
+        </tr>
+        <tr>
+            <td><label for="pwd">Enter Password</label></td>
+            <td><input type="password" id="pwd" name="u_pwd"/></td>
+        </tr>
+        <tr>
+            <td>Select Country</td>
+            <td>
+                <select>
+                    <option>Choose Country</option>
+                    <option value="In">India</option>
+                    <option value="US">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Fr">France</option>
+                    <option value="Ch">China</option>
+                    <option value="Np">Nepal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Select Gender</td>
+            <td>
+                <input type="radio" name="gender" value="m"/> Male
+                <input type="radio" name="gender" value="f"/> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Select Sports</td>
+            <td>
+                <input type="checkbox"/> Cricket
+                <input type="checkbox"/> Football
+                <input type="checkbox"/> Chess
+                <input type="checkbox"/> Hockey
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Login"/></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
