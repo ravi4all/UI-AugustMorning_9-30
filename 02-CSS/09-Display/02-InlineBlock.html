@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div {
+            display: inline-block;
+            width: 40%;
+        }
+        ul li {
+            display: inline-block;
+            margin: 0px 10px;
+            width: 15%;
+            text-align: center;
+            background-color: #99afcd;
+            position: relative;
+        }
+        ul li a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+        ul {
+            padding: 0px;
+        }
+        ul li:hover {
+            background-color: #ED7902;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            width: 100%;
+            left: 0px;
+            background-color: cadetblue;
+        }
+        .dropdown li {
+            display: block;
+            width: 100%;
+            margin: 0px;
+            background-color: transparent;
+        }
+        ul li:hover .dropdown {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Inline Block</h1>
+
+<ul>
+    <li><a href="#">Menu item</a></li>
+    <li><a href="#">Menu item</a></li>
+    <li>
+        <a href="#">Menu item</a>
+        <ul class="dropdown">
+            <li><a href="#">Nested List</a></li>
+            <li><a href="#">Nested List</a></li>
+            <li><a href="#">Nested List</a></li>
+            <li><a href="#">Nested List</a></li>
+            <li><a href="#">Nested List</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Menu item</a></li>
+    <li><a href="#">Menu item</a></li>
+</ul>
+
+
+
+<div>
+    <h2>Heading</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci
+        asperiores assumenda beatae dolor doloribus, enim fugit id incidunt
+        iure iusto libero nulla vero. Eveniet facere illo neque non vero.
+    </p>
+</div>
+
+<div>
+    <h2>Heading</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci
+        asperiores assumenda beatae dolor doloribus, enim fugit id incidunt
+        iure iusto libero nulla vero. Eveniet facere illo neque non vero.
+    </p>
+</div>
+
+</body>
+</html>
