@@ -1,0 +1,85 @@
+body {
+    font-family: helvetica;
+    margin: 0px;
+    background-color: #E3E6E3;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #009270;
+}
+#header .logo a {
+    display: block;
+    padding: 7px 10px;
+}
+
+#main-navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#main-navigation ul li {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+}
+#main-navigation ul li a {
+    display: block;
+    padding: 17px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+#main-navigation ul li:hover {
+    background-color: #028062;
+}
+
+#main-navigation .dropdown {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: #E3E6E3;
+}
+#main-navigation ul li:hover .dropdown {
+    display: block;
+}
+#main-navigation .dropdown .test_team, #main-navigation .dropdown .associates {
+    width: 50%;
+}
+#main-navigation .dropdown ul li {
+    display: block;
+    width: 100%;
+}
+#main-navigation .dropdown ul li a {
+    padding: 5px;
+    color: #000;
+}
+#main-navigation .dropdown ul li:hover {
+    background-color: #ECEBEB;
+}
+
+#main-navigation .dropbox:after {
+    content: "";
+    border-top: 5px solid #fff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    right: -5px;
+    top: 45%;
+}
