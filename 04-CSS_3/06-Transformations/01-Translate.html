@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .parent {
+            border: 2px solid red;
+        }
+        .child {
+            height: 300px;
+            width: 300px;
+            transition-duration: 10s;
+            background-color: dodgerblue;
+        }
+        .parent:hover .child {
+            /*transform: translateX(700px);*/
+            /*transform: translateY(200px);*/
+            transform: translate(700px, 100px);
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Transform : Translate</h1>
+   
+   <p>
+       Translate is used to move elements on x and y axis...
+   </p>
+   
+   <div class="parent">
+       <div class="child"></div>
+   </div>
+   
+   <p>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, nemo, fugiat! Corporis quia, minima adipisci expedita sunt culpa, natus doloribus esse nobis quas, temporibus mollitia minusquibusdam molestiae aperiam omnis.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione possimus perspiciatis nemo minus pariatur, ipsum, suscipit, natus inventore atque quidem, eveniet sed perferendis iste tenetur ea excepturi velit officiis illum.
+   </p>
+    
+</body>
+</html>

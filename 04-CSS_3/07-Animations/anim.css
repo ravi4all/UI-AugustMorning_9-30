@@ -1,0 +1,43 @@
+div {
+    position: absolute;
+    bottom: 0px;
+    animation: cars 10s infinite;
+}
+img {
+    width: 40%;
+}
+
+@keyframes cars {
+    0% {
+        bottom: 0%;
+    }
+    50% {
+        bottom: 80%;
+        transform: rotate(180deg);
+    }
+    100% {
+        bottom: 0%;
+        transform: rotate(360deg);
+    }
+}
+
+#div_1 {
+    left: 0%;
+    animation-timing-function: ease;
+}
+#div_2 {
+    left: 20%;
+    animation-timing-function: ease-in;
+}
+#div_3 {
+    left: 40%;
+    animation-timing-function: ease-in-out;
+}
+#div_4 {
+    left: 60%;
+    animation-timing-function: ease-out;
+}
+#div_5 {
+    left: 75%;
+    animation-timing-function: linear;
+}
