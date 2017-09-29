@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1>Compound Interest Calculator</h1>
+   
+   <table>
+       <tr>
+          <td>Select Currency</td>
+           <td>
+               <select id="currency">
+                  <option>Choose Currency</option>
+                   <option value="$">Dollar ($)</option>
+                   <option value="&euro;">Euro (&euro;)</option>
+                   <option value="&pound">Pound (&pound;)</option>
+                   <option value="">Other</option>
+               </select>
+           </td>
+       </tr>
+       <tr>
+           <td>Base Amount</td>
+           <td><input type="number" min="0" id="box_1"></td>
+       </tr>
+       <tr>
+           <td>Annual Interest Rate</td>
+           <td><input type="number" min="0" id="box_2"></td>
+       </tr>
+       <tr>
+           <td>Calculation Period</td>
+           <td><input type="number" min="0" id="box_3"></td>
+           <td><select id="timePeriod">
+               <option value="year">Years</option>
+               <option value="month">Months</option>
+           </select></td>
+       </tr>
+       <tr>
+           <td>Compound Interval</td>
+           <td><select id="compoundInterval">
+               <option value="daily">Daily</option>
+               <option value="month">Monthly</option>
+               <option value="year">Yearly</option>
+           </select></td>
+       </tr>
+   </table>
+   
+   <h2>Total Interest <span id="totalInterest"></span></h2>
+   <h2>Balance <span id="balance"></span></h2>
+    
+</body>
+</html>
