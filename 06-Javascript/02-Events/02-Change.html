@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h1>OnChange</h1>
+   
+   <input type="text" placeholder="Enter Name" onchange="show(this)">
+   
+   <h2>Hello <span></span></h2>
+   
+    <script>
+        function show(obj){
+            var uName = obj.value;
+            var span = document.getElementsByTagName("span");
+            span[0].innerHTML = uName;
+            alert("Change Called...");
+        }
+    </script> 
+</body>
+</html>
