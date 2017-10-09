@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="../model/task.js"></script>
+    <script src="../model/taskObj.js"></script>
+    <script src="../controller/controller.js"></script>
+</head>
+<body>
+   
+   <h1>CRUD Operations</h1>
+   
+   <table>
+       <tr>
+           <td>Enter Task Name</td>
+           <td><input type="text" placeholder="Enter task name" id="box_1"></td>
+       </tr>
+       <tr>
+           <td>Enter Task Desc</td>
+           <td><textarea id="box_2" cols="30" rows="10"></textarea></td>
+       </tr>
+       <tr>
+           <td></td>
+           <td>
+               <button id="add">Add</button>
+               <button id="delete">Delete</button>
+               <button id="update">Update</button>
+               <button id="search">Search</button>
+               <button id="sort">Sort</button>
+               <button id="save">Save</button>
+               <button id="load">Load</button>
+            </td>
+       </tr>
+   </table>
+   
+   <ul id="itemList">
+       
+   </ul>
+    
+</body>
+</html>
