@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").on("click", function(){
+                var userName = $("#box_1").val();
+                $("span").html(userName);
+                console.log(userName);
+            })
+        })
+    </script>
+</head>
+<body>
+   
+   <h1>Jquery DOM</h1>
+   
+   <input type="text" placeholder="Enter Name" id="box_1">
+   <button>Click Here</button>
+   
+   <h2>Hello <span></span></h2>
+    
+</body>
+</html>

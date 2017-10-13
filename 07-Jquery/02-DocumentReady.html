@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .img_2 {
+            display: none;
+        }
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+            $(".img_1").hide(5000);
+            $(".img_2").show(5000);
+        });
+        })
+    </script>
+</head>
+<body>
+   
+   <h1>Hello World with Jquery</h1>
+   <button>Click Here</button>
+   <br>
+   <img src="../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="" class="img_1">
+   <br>
+   <img src="../images/images/l34882-ironman-rigged-original-model--98611.jpg" class="img_2" alt="">
+
+</body>
+</html>

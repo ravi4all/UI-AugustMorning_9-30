@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .img_2 {
+            display: none;
+        }
+        div {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+   
+   <h1>Jquery Effects</h1>
+   <!--Hide
+   Fade
+   Slide-->
+   <button id="btn_1">Click Here</button>
+   <button id="btn_2">Toggle</button>
+   <br>
+   <!--<img src="../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="" class="img_1">
+   <br>
+   <img src="../images/images/l34882-ironman-rigged-original-model--98611.jpg" class="img_2" alt="">-->
+    
+    <div>
+        
+    </div>
+    
+    <script>
+        $("#btn_1").click(function(){
+            /*$(".img_1").hide(5000);
+            $(".img_2").show(5000);*/
+           /* $(".img_1").fadeOut(5000);
+            $(".img_2").fadeIn(5000);*/
+            $(".img_1").slideUp(3000);
+            /*$(".img_2").slideDown(3000);*/
+        });
+        $("#btn_2").click(function(){
+            /*$(".img_1").toggle(1000);*/
+            /*$(".img_1").fadeToggle(1000);*/
+            $(".img_1").slideToggle(3000);
+        });
+        $("button").click(function(){
+    $("div").animate({
+        left: '250px',
+        opacity: '0.5',
+        height: '150px',
+        width: '150px'
+    },3000);
+}); 
+    </script>
+</body>
+</html>
