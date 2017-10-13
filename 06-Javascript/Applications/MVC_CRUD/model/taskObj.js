@@ -17,7 +17,7 @@ var taskObj = {
         console.log(toggleList);
     },
     
-    "deletTask" : function(){
+    "deleteTask" : function(){
         this.taskList = this.taskList.filter(function(obj){
             return obj.selected == false;
         })
